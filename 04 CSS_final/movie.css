@@ -1,3 +1,6 @@
+/* 		학   번: 2010048128
+		이   름: 김   종  수		*/
+
 body {
 	background-image: url("background.png");
 	font-family: Verdana, Tahoma, sans-serif;
@@ -29,6 +32,7 @@ h1 {
 }
 #overall_left {
 	width: 550px;
+	height: 1049.23px;
 }
 #rottenRate {
 	background-image: url("rbg.png");
@@ -44,7 +48,7 @@ img.rottenbig {
 #critic {
 	display: grid;
 	grid-column-gap: 2%;
-	padding: 1%;
+	padding: 4%;
 }
 #critic_left {
 	grid-column-start: 1;
@@ -52,20 +56,65 @@ img.rottenbig {
 #critic_right {
 	grid-column-start: 2;
 }
+p.review, p.reviewer {
+	font-size: 8pt;
+}
 p.review {
 	font-weight: bold;
-	font-size: 8pt;
 	background-color: #E8DC9B;
 	border: 2px solid gray;
 	border-radius: 10px;
 	padding: 8px;
+	overflow: hidden;
 }
 p.reviewer {
 	margin-top: 0pt;
 	margin-bottom: 20pt;
 }
+img.tmtimg, img.criticimg {
+	float: left;
+	padding-right: 5px;
+}
+span.affi {
+	font-style: italic;
+}
 #overall_right {
 	float: right;
 	width: 250px;
 	background-color: #A2B964;
+}
+#info {
+	padding: 10pt;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+dt {
+	font-weight: bold;
+	font-size: 10pt;
+}
+dd {
+	padding-bottom: 10pt;
+}
+ul {
+	padding-left: 0pt;
+	margin-top: 0pt;
+}
+li {
+	list-style-type: none;
+}
+#page {
+	background-color: #A2B964;
+}
+p.page {
+	margin: 0pt;
+	padding: 5pt 200pt 5pt 200pt;
+	text-align: center;
+}
+#validator {
+	position:fixed;
+    right: 0pt;
+    bottom: 0pt;
+}
+#validator img {
+	opacity: 0.5;
 }

@@ -1,0 +1,12 @@
+#user {
+	border: 3px solid #cccccc;
+	margin-bottom: 20pt;
+	float: right;
+}
+#searchBar {
+	position: relative;
+	left: 35%;	
+	width: 500px;
+	height: 50px;
+	font-size: 30pt;
+}
