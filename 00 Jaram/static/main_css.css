@@ -5,8 +5,16 @@
 }
 #searchBar {
 	position: relative;
-	left: 35%;	
+	left: 35%;
 	width: 500px;
 	height: 50px;
 	font-size: 30pt;
+}
+
+#recommendation {
+	height: 100px;
+}
+
+#itemList {
+	height: 400px;
 }
